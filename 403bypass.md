@@ -86,3 +86,5 @@ url.com/ADM+IN/
 
 
 (update with wikinotes...)
+
+ As far as automated tooling goes, https://github.com/devploit/nomore403 has the most coverage in terms of the above, plus other methods (Headers ++)
