@@ -1,6 +1,6 @@
 # Spring Boot Actuator Endpoint Bruteforce Wordlist
 
-When hunting for exposed Spring Boot Actuator endpoints, use this comprehensive wordlist with tools like **ffuf, gobuster, feroxbuster, and feroxbuster**.
+When hunting for exposed Spring Boot Actuator endpoints, use this comprehensive wordlist with tools like **ffuf, gobuster, and feroxbuster**.
 
 ---
 
