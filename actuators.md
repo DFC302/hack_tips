@@ -1,6 +1,12 @@
-# When hunting for exposed Spring Boot Actuator endpoints, use a comprehensive wordlist that covers default paths, legacy endpoints, and alternative locations. The list below is structured for use with tools like ffuf, gobuster, feroxbuster. It includes common Actuator endpoints (e.g. health checks, metrics), less obvious paths (legacy endpoints from Spring Boot 1.x, integration endpoints), and alternate base paths (in case the management context path is changed).
+# Spring Boot Actuator Endpoint Bruteforce Wordlist
 
+When hunting for exposed Spring Boot Actuator endpoints, use this comprehensive wordlist with tools like **ffuf, gobuster, feroxbuster, and dirsearch**.
 
+---
+
+## **📌 Bruteforce Wordlist for Actuator Endpoints**
+
+```
 # Default Actuator Base Path
 actuator
 actuator/
@@ -50,27 +56,23 @@ shutdown
 
 # Spring Cloud & Extended Actuator Endpoints
 actuator/gateway
-actuator/gateway/routes        # Spring Cloud Gateway - RCE possible in older versions (CVE-2022-22947)
-actuator/refresh               # Spring Cloud Config Refresh - Reloads config (may expose secrets)
-actuator/restart               # Spring Cloud Context Restart - Could be used for denial of service
-actuator/jolokia               # JMX via Jolokia (Possible RCE with misconfigurations)
-actuator/hawtio                # Hawtio JMX Management Console (Exploitable if misconfigured)
+actuator/gateway/routes
+actuator/refresh
+actuator/restart
+actuator/jolokia
+actuator/hawtio
 actuator/hawtio/index.html
 
 # Miscellaneous Actuator Endpoints
-actuator/httpexchanges         # HTTP Request Traces (Info Disclosure)
-actuator/conditions            # Auto-Configuration Report (Can reveal app internals)
-actuator/flyway                # Database Migrations via Flyway (Info Disclosure)
-actuator/liquibase             # Database Migrations via Liquibase (Info Disclosure)
-actuator/integrationgraph      # Spring Integration Graph (Information Leak)
-actuator/heapdump              # Dumps JVM Heap Memory (Critical if exposed - may contain secrets)
-actuator/loggers               # Adjust Logging Levels (Info Leak, may enable debug logs)
-actuator/metrics               # Application Metrics (May expose internal system details)
-actuator/auditevents           # Security Audit Logs (Can reveal login attempts & access control)
-
-
-
-# Alternative Base Paths for Actuator Endpoints
+actuator/httpexchanges
+actuator/conditions
+actuator/flyway
+actuator/liquibase
+actuator/integrationgraph
+actuator/heapdump
+actuator/loggers
+actuator/metrics
+actuator/auditevents
 
 management
 management/
@@ -103,3 +105,4 @@ internal/
 internal/health
 internal/info
 internal/env
+```
