@@ -1,5 +1,3 @@
-We're going to create a markdown based blog and word list with this as a start:
-
 # 403 Bypass list by @jhaddix
 
 ## Url Manipulation Methods
