@@ -1,4 +1,4 @@
-When hunting for exposed Spring Boot Actuator endpoints, use a comprehensive wordlist that covers default paths, legacy endpoints, and alternative locations. The list below is structured for use with tools like ffuf, gobuster, feroxbuster. It includes common Actuator endpoints (e.g. health checks, metrics), less obvious paths (legacy endpoints from Spring Boot 1.x, integration endpoints), and alternate base paths (in case the management context path is changed).
+# When hunting for exposed Spring Boot Actuator endpoints, use a comprehensive wordlist that covers default paths, legacy endpoints, and alternative locations. The list below is structured for use with tools like ffuf, gobuster, feroxbuster. It includes common Actuator endpoints (e.g. health checks, metrics), less obvious paths (legacy endpoints from Spring Boot 1.x, integration endpoints), and alternate base paths (in case the management context path is changed).
 
 # Default Actuator base path and discovery
 actuator
