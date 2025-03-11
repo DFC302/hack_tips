@@ -12,3 +12,4 @@ Welcome to **Arcanum-Sec/hack_tips** – a collection of short, high-impact hack
 
 Our first commit is a **banger wordlist for actuators**—perfect for finding exposed management endpoints in Java-based applications.
 
+## 📌 Second Commit: 403 Bypass
