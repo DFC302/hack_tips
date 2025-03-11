@@ -247,7 +247,7 @@ The server (or an app route) might treat paths case-insensitively, while a WAF o
 # 7. File Extension & Null Byte Tricks
 Appending or removing file extensions might bypass extension-based filters.
 
-``
+```
 url.com/admin.json
 url.com/admin.css
 url.com/admin.html
@@ -257,7 +257,7 @@ url.com/admin.bak
 url.com/admin.inc
 url.com/admin.~
 url.com/admin%00
-``
+```
 ## Why it Works
 
 Some servers only block .php or .asp but forget to block .json or .bak. A null byte (%00) can truncate path checks on older or poorly written code.
