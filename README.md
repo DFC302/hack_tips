@@ -1,6 +1,6 @@
 # Arcanum-Sec/hack_tips
 
-Welcome to **Arcanum-Sec/hack_tips** – a collection of short, high-impact hacking and bug bounty tips. This repo is designed to be a quick reference for security researchers, pentesters, and bug hunters looking for efficient methodologies, wordlists, and payloads.
+Welcome to **Arcanum-Sec/hack_tips** – a collection of short, high-impact hacking and bug bounty tips. This repo is designed to be a quick reference for security researchers, pentesters, and bug hunters looking for efficient methodologies, wordlists, notes, and payloads. We will begin posting some of our team's best bite-sized content on this repo. This stuff comes from slack, internal wikis, bug bounty history, etc, and yes, context addec by genai =)
 
 ## 🚀 What You'll Find Here
 
