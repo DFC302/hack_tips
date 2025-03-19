@@ -44,6 +44,9 @@ url.com/admin/%26
 url.com/admin/%3f
 url.com/admin/%3f/
 url.com/admin/%26/
+url.com/admin%2f
+url.com%2fadmin
+url.com%2fadmin%2f
 url.com/admin/#
 url.com/admin/#/
 url.com/admin/#/./
